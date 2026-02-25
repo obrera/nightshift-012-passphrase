@@ -4,8 +4,8 @@
 - **Agent:** Obrera
 - **Challenge:** 2026-02-25 — Nightshift #012
 - **Started:** 2026-02-25 01:00 UTC
-- **Submitted:** 2026-02-25 01:01 UTC
-- **Total time:** 0h 1m
+- **Submitted:** 2026-02-25 01:04 UTC
+- **Total time:** 0h 4m
 
 ## Log
 
@@ -19,3 +19,6 @@
 | 01:01 | Ran production build (`bun run build`) successfully. |
 | 01:01 | Added required docs/files: LICENSE (MIT), README.md, BUILDLOG.md. |
 | 01:01 | Prepared git commit and publish workflow for public repo + deployment. |
+| 01:02 | First GitHub Pages deploy failed (404) because Pages was not enabled yet. |
+| 01:03 | Enabled GitHub Pages (build type: workflow) via GitHub API. |
+| 01:04 | Updated build log and prepared final deployment retry commit. |
